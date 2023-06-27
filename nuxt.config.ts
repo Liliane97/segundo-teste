@@ -38,11 +38,11 @@ export default defineNuxtConfig({
        
       },
     },
-    moduleOptions: {
-      treeshaking: true,
-      useIconCDN: true,
-      styles: 'sass',
-      autoImport: true,
-    },
+    // moduleOptions: {
+    //   treeshaking: true,
+    //   useIconCDN: true,
+    //   styles: 'sass',
+    //   autoImport: true,
+    // },
   },
 })
