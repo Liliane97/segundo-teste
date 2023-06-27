@@ -1,39 +1,26 @@
 <template>
   <v-card
     class="mx-auto"
-    max-width="300"
+    max-width="344"
+    variant="outlined"
+    color="primary"
   >
-    <v-list :items="items"></v-list>
+    <v-card-item>
+      <div>
+        <div class="text-overline mb-1">
+          OVERLINE
+        </div>
+        <div class="text-h6 mb-1">
+          Headline
+        </div>
+        <div class="text-caption">Greyhound divisely hello coldly fonwderfully</div>
+      </div>
+    </v-card-item>
+
+    <v-card-actions>
+      <v-btn variant="outlined">
+        Button
+      </v-btn>
+    </v-card-actions>
   </v-card>
 </template>
-<script setup>
-  const items = [
-    { type: 'subheader', title: 'Group #1' },
-    {
-      title: 'Item #1',
-      value: 1,
-    },
-    {
-      title: 'Item #2',
-      value: 2,
-    },
-    {
-      title: 'Item #3',
-      value: 3,
-    },
-    { type: 'divider' },
-    { type: 'subheader', title: 'Group #2' },
-    {
-      title: 'Item #4',
-      value: 4,
-    },
-    {
-      title: 'Item #5',
-      value: 5,
-    },
-    {
-      title: 'Item #6',
-      value: 6,
-    },
-  ]
-</script>
