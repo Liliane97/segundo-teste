@@ -39,7 +39,7 @@ export default defineNuxtConfig({
       },
     },
     moduleOptions: {
-      // treeshaking: true,
+      treeshaking: false,
       useIconCDN: true,
       styles: 'sass',
       autoImport: true,
