@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18",
+    "nuxt": "^3.6.1"
+  },
+   "dependencies": {
+    "@invictus.codes/nuxt-vuetify": "^0.2.20",
+    "sass": "^1.63.6",
+    "vue": "^3.3.4",
+    "vuetify": "^3.3.5"
+  }
+}
